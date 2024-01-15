@@ -5,7 +5,7 @@ int	main(void)
 	int	i = 0;
 	ArrayStack *stack = NULL;
 
-	AS_CreateStackArray(&stack, 10);
+	AS_CreateStack(&stack, 10);
 
 	AS_Push(stack, 1);
 	AS_Push(stack, 2);

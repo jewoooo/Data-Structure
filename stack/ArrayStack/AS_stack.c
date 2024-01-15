@@ -1,7 +1,7 @@
 #include "AS_stack.h"
 
 // Create Stack's struct for infos and ArrayStack
-void	AS_CreateStackArray(ArrayStack **stack, int capacity)
+void	AS_CreateStack(ArrayStack **stack, int capacity)
 {
 	(*stack) = (ArrayStack *)malloc(sizeof(ArrayStack));
 	(*stack)->Nodes = (Node *)malloc(sizeof(Node) * capacity);

@@ -16,7 +16,7 @@ typedef struct tagArrayStack
 	Node	*Nodes;
 } ArrayStack;
 
-void	AS_CreateStackArray(ArrayStack **stack, int capacity);
+void	AS_CreateStack(ArrayStack **stack, int capacity);
 void	AS_DestroyStack(ArrayStack *stack);
 void	AS_Push(ArrayStack *stack, int data);
 int		AS_Pop(ArrayStack *stack);
